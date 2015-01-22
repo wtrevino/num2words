@@ -27,7 +27,7 @@ class Num2Word_ES(Num2Word_EU):
         max = 3 + 6*len(high)
 
         for word, n in zip(high, range(max, 3, -6)):
-            self.cards[10**(n-3)] = word + "ill\xf2n"
+            self.cards[10**(n-3)] = word + "ill\xf3n"
 
 
     def setup(self):
